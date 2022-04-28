@@ -70,8 +70,9 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Error while saving post", Toast.LENGTH_SHORT).show()
             } else {
                 Log.i(TAG, "Successfully saved post")
+                Toast.makeText(this, "Successfully posted", Toast.LENGTH_SHORT).show()
                 // reset the EditText field to be empty
-                post.setDescription("")
+
                 // reset the ImageView to be empty
 
             }
